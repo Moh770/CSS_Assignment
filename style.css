@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/Roboto-Regular.ttf); 
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/Roboto-LightItalic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+@media (max-width:700px){
+    header, footer{
+        flex-direction: column;
+    }
+
+    .first-section{
+        flex-direction: column;
+    }
+
+    .container{
+        width: 100%;
+        display: flex;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+html, body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+main{
+    height: 60%;
+    margin-top: 100px;
+}
+
+header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    position:fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    min-height: 90px;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+                font-size: 18px;
+			}
+				nav ul li a:hover {
+					color: #3882f6;
+				}
+
+.title{
+    font-size: 24px;
+}
+
+.first-section{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: stretch;
+    color: #e5e7eb;
+    font-size: 18px;
+    max-height: fit-content;
+}
+
+.headerTitle{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: inherit;
+}
+
+.container{
+    min-width: 50%;
+}
+
+.container img{
+    width: 90%;
+    float: right;
+}
+
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+}
+    .second-section img{
+        width: 150px;
+    }
+    .second-section h2{
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+.items{  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    .items figure{
+        align-items: center;
+        width: 150px;
+        padding: 2em;
+    }
+
+.third-section{
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+    .third-section p{
+        font-weight: bold;
+        text-align: end;
+        margin-right: 50px;
+    }
+
+blockquote{
+    font-style: italic;
+    font-size: 36px;
+    margin-bottom: inherit;
+}
+
+.fourth-section{
+    display: flex;
+    background-color: #3882f6;
+    margin: 100px;
+    border-radius: 1em;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    padding: 20px;
+}
+
+    .fourth-section div{
+        margin: 20px  20px ; 
+        line-height: 0;
+    }
+
+    .fourth-section p{
+        color: #e5e7eb;
+    }
+
+    .fourth-section button{
+        border-style: solid;
+        border-color: white
+    }
+
+
+button{
+    background-color: #3882f6 ;
+    border-radius: 15px;
+    font-size: 18px;
+    color:white;
+    padding: 10px 30px 10px 30px;
+    border: none;
+}
+
+button:hover{
+    background-color: #305ba0;
+}
+
+footer{
+    background-color: #1F2937;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#F9FAF8;
+    font-size: small;
+    height: 20%;
+}
+
+footer img{
+    width: 40px;
+    padding-left: 10px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column; 
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.two {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 20px;
+}
+
+.three {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 20px;
+}
+
+.four {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 20px;
+}
